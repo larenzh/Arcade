@@ -2,26 +2,26 @@ CODE TEMPLATE:
 //This is a single line comment (notes that won't be read as instructions to the computer).
 //Different syntax is used for comments depending on the language.
 
-//CHANGE ME: Add the title of your game
-//CHANGE ME: Add your name
+// Pac Man
+//Larenz Harrington
 
 
-if (CHANGE ME: condition # 1) {
-    //Add event below
+if (holding 'up' arrow) {
+    move in upwards direction
 } else {
-    //Add event below
+    continue going in previous direction
 }
 
-if (CHANGE ME: condition # 2) {
-    //Add event below
+if (catches moving fruit) {
+    award 200 points
 } else {
-    //Add event below
+    do not award any points
 }
 
-if (CHANGE ME: condition # 3) {
-    //Add event below
+if (caught by enemy) {
+    end current life
 } else {
-    //Add event below
+    continue game; do not end life
 }
 
 
